@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lux | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">LUX.</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="welcome">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Lux</span></h1>
+
+            <h2>Student | Singer | Writer | Aspiring Developer</h2>
+
+            <p class="intro">
+                I love exploring creativity, learning new skills
+                and turning my ideas into reality.
+                Welcome to my little corner of the internet!
+            </p>
+
+            <a href="#about" class="btn">Explore My Portfolio</a>
+        </div>
+
+        <div class="hero-art" aria-label="Decorative illustration">
+            <div class="circle">
+                <span>✦</span>
+                <span class="music-note">♫</span>
+                <span class="star">✧</span>
+                <span class="code-symbol">&lt;/&gt;</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <p class="section-label">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-card">
+            <p>
+                Hello! I'm Lux, a college student with a passion
+                for music, creativity and technology.
+                I enjoy singing, writing stories and discovering
+                new things that help me grow.
+            </p>
+
+            <p>
+                I am currently learning programming and improving
+                my technical skills. I believe that every new
+                experience is an opportunity to learn something
+                valuable and become more confident.
+            </p>
+
+            <p>
+                My goal is to combine my creative interests
+                with technology and build something meaningful
+                in the future.
+            </p>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section class="section interests">
+        <p class="section-label">WHAT I LOVE</p>
+        <h2 class="section-title">My Interests</h2>
+
+        <div class="interest-grid">
+
+            <div class="interest-card">
+                <div class="interest-icon">🎤</div>
+                <h3>Singing</h3>
+                <p>
+                    Music is one of my favorite ways to
+                    express myself. I enjoy singing and
+                    exploring different songs.
+                </p>
+            </div>
+
+            <div class="interest-card">
+                <div class="interest-icon">💻</div>
+                <h3>Coding</h3>
+                <p>
+                    I'm learning programming and enjoy
+                    solving problems and discovering
+                    how technology works.
+                </p>
+            </div>
+
+            <div class="interest-card">
+                <div class="interest-icon">✍️</div>
+                <h3>Writing</h3>
+                <p>
+                    I love creating stories, developing
+                    characters and expressing ideas
+                    through words.
+                </p>
+            </div>
+
+            <div class="interest-card">
+                <div class="interest-icon">📚</div>
+                <h3>Reading</h3>
+                <p>
+                    Reading helps me explore new ideas,
+                    experience different worlds and
+                    find inspiration.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <p class="section-label">WHAT I'M LEARNING</p>
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-card">
+            <div class="skill">
+                <div class="skill-heading">
+                    <span>HTML</span>
+                    <span>Learning</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress html"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-heading">
+                    <span>CSS</span>
+                    <span>Learning</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress css"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-heading">
+                    <span>Python</span>
+                    <span>Beginner</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress python"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-heading">
+                    <span>Creative Writing</span>
+                    <span>Interest</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress writing"></div>
+                </div>
+            </div>
+        </div>
+
+        <p class="skills-note">
+            These are learning areas, not formal skill assessments.
+            I look forward to improving them through practice.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <p class="section-label">MY WORK</p>
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <div class="project-icon">🍰</div>
+                <h3>Bakery Management System</h3>
+                <p>
+                    A learning project involving Python and
+                    MySQL to organize bakery items and
+                    manage basic product information.
+                </p>
+                <span class="project-tag">Python · MySQL</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🌐</div>
+                <h3>Personal Portfolio</h3>
+                <p>
+                    This website! A beginner-friendly
+                    project made with HTML and CSS to
+                    introduce myself and showcase my interests.
+                </p>
+                <span class="project-tag">HTML · CSS</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <p class="section-label">SAY HELLO</p>
+        <h2 class="section-title">Let's Connect!</h2>
+
+        <div class="contact-card">
+            <p>
+                Thank you for visiting my portfolio!
+                I'm always happy to learn, share ideas
+                and connect through creative projects.
+            </p>
+
+            <p>
+                For now, you can explore my projects
+                and interests here. I'll add a public
+                professional contact link when I have one.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Designed and created by Lux</p>
+        <p>© 2026 My Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
